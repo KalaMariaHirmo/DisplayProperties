@@ -1,0 +1,27 @@
+
+.main-square {
+    height: 420px;
+    width: 420px;
+    background-color: darkorchid;
+    margin: 0 auto;
+}
+.red {
+    margin-top: 160px;
+    background-color: red;
+    margin-left: 60px;
+}
+.yellow {
+    margin-top: 160px;
+    background-color: yellow;
+    visibility: hidden;
+}
+.blue{
+    margin-top: 160px;
+    background-color: blue;
+}
+.main-square > div {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}

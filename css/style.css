@@ -1,0 +1,36 @@
+*{
+    font-family: 'Exo', sans-serif;
+}
+.ul-inline {
+    background-color: aquamarine;
+    width: 70%;
+}
+.ul-inline li{
+    background-color: aqua;
+    display: inline;
+}
+.ul-inline-block{
+    background-color: lightblue;
+}
+.ul-inline-block li{
+    background-color: blue;
+    padding: 4px;
+    display: inline-block;
+    width: 20%;
+    color: skyblue;
+}
+.ul-block {
+    background-color:  mediumturquoise;
+    color: darkblue;
+}
+.ul-block li {
+    display: block;
+    height: 69px;
+    width: 21%;
+    margin: 0 auto;
+    border: 2px solid cyan;
+}
+.ul-block-wrapper {
+    margin: 0 auto;
+    width: 80%;
+}
